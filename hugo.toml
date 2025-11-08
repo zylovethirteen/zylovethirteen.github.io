@@ -32,3 +32,4 @@ description = "专注《重返未来1999》剧情解析、角色档案、世界�
     {name = "微博", url = "https://weibo.com"},
   ]
 favicon="/favicon.png"
+publishDir = "."  # 让 Hugo 直接把静态文件生成到项目根目录，而不是 public 文件夹
