@@ -1,0 +1,21 @@
+/* 全局变量：浅棕色主色调 */
+:root {
+  --primary-color: #c4a784 !important; /* 主色调（浅棕色） */
+  --link-color: #c4a784 !important;     /* 链接颜色 */
+  --background-color: #f9f6ed !important; /* 浅米色背景，搭配浅棕色更和谐 */
+  --text-color: #333333 !important;       /* 深灰色文字，保证可读性 */
+}
+
+/* 标题样式：强化浅棕色主题 */
+h1, h2, h3 {
+  color: #c4a784 !important;            /* 标题用主色调 */
+  border-left: 5px solid #c4a784;       /* 标题左侧加浅棕色竖线装饰 */
+  padding-left: 10px;                   /* 标题与竖线间距 */
+  font-family: "SimSun", serif;         /* 换书法感字体，贴合游戏艺术风格 */
+}
+
+/* 链接 hover 效果：加深棕色，增强互动感 */
+a:hover {
+  color: #a68866 !important;            /* 鼠标悬浮时链接颜色变深 */
+  text-decoration: underline;           /* 下划线强调 */
+}

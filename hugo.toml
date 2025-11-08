@@ -1,0 +1,34 @@
+baseURL = "https://example.org/"
+languageCode = "zh-cn"
+title = "重返未来1999档案馆"
+theme = "ananke"
+
+description = "专注《重返未来1999》剧情解析、角色档案、世界观分享的小站！"
+
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "游戏介绍"
+  url = "/about/"  # 严格对应 content/about.md
+  weight = 2
+
+[[menu.main]]
+  name = "角色档案"
+  url = "/characters/"  # 严格对应 content/characters.md
+  weight = 3
+
+[[menu.main]]
+  name = "剧情主线"
+  url = "/story/"  # 严格对应 content/story.md
+  weight = 4
+
+[params]
+  tagline = "穿越暴雨，重构未来"
+  social = [
+    {name = "GitHub", url = "https://github.com"},
+    {name = "微博", url = "https://weibo.com"},
+  ]
+favicon="/favicon.png"
